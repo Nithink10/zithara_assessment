@@ -1,11 +1,11 @@
-/* styles.css */
+
 
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-/* styles.css */
+
 
 body {
     margin: 0;
@@ -20,22 +20,20 @@ body {
 }
 
 .container {
-    max-width: 800px; /* Adjust the width as needed */
+    max-width: 800px; 
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Add animations here */
 
 
-/* Additional styles for table row animations */
 @keyframes slideInFromLeft {
     from { transform: translateX(-100%); opacity: 0; }
     to { transform: translateX(0); opacity: 1; }
 }
 
 tr {
-    animation: slideInFromLeft 0.5s ease-out; /* Apply slide-in animation to table rows */
+    animation: slideInFromLeft 0.5s ease-out; 
 }
